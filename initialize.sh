@@ -11,6 +11,8 @@ python3 -m pip install transformers datasets tiktoken wandb tqdm
 
 cd data/openwebtext
 python3 prepare.py
+exit 0
+
+#python train.py
 
 
-python train.py

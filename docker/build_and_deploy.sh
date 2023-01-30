@@ -32,6 +32,8 @@ docker run -d \
 	$NAME
 
 
+exit 0
+
 #To Connect : 
 #docker ps -a
 #docker attach ID 
