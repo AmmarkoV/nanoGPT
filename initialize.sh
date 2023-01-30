@@ -6,10 +6,6 @@ cd "$DIR"
 
 python3 -m venv venv
 source venv/bin/activate
-
-
-python3 -m venv stablevenv
-source stablevenv/bin/activate
 python3 -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu116
 python3 -m pip install --upgrade pip 
 python3 -m pip install transformers datasets tiktoken wandb tqdm
