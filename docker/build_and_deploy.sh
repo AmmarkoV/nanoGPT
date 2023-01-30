@@ -9,7 +9,7 @@ REPOSITORY=`pwd`
 cd "$DIR"
 
 
-NAME="nanoGPT"
+NAME="nano-gpt"
 dockerfile_pth="$DIR"
 mount_pth="$REPOSITORY"
 
