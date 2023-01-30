@@ -22,10 +22,10 @@ docker build \
 	$dockerfile_pth \
 	--build-arg user_id=$UID
 
+#-p 8080:8080 \
 docker run -d \
 	--gpus all \
 	--shm-size 8G \
-    -p 8080:8080 \
 	-it \
 	--name $NAME-container \
 	-v $mount_pth:/home/user/workspace \
